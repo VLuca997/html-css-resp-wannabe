@@ -174,11 +174,6 @@ img {
         overflow-x: hidden;
     }
 
-    .row {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .col {
         width: 100%;
         padding-left: 0;
@@ -211,11 +206,6 @@ img {
 @media (min-width: 769px) and (max-width: 1160px) {
     .container {
         max-width: 100%;
-    }
-
-    .row {
-        flex-wrap: wrap;
-        justify-content: center;
     }
 
     .col {
